@@ -57,7 +57,7 @@ plane_emissions = {}
 
 # Calculate yearly CO2 emissions for an average car
 KG_CO2_GAL = 8.9 * unit.kg / unit.gal  # CO2 produced per gallon of gasoline
-GALLONS_PER_YEAR_DRIVING = 17_520 * unit.gal / unit.yr  # Average fuel consumption per year
+GALLONS_PER_YEAR_DRIVING = 489 * unit.gal / unit.yr  # Average american fuel consumption per year for registered vehicle
 CO2_TONS_YEAR_DRIVING = (KG_CO2_GAL * GALLONS_PER_YEAR_DRIVING).to(unit.metric_ton / unit.yr)
 
 # Calculate CO2 emissions per plane and compare to car emissions
